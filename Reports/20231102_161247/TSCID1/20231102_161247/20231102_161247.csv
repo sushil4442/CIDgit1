@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSCID1,,,,2023-11-02 16:13:00,2023-11-02 16:13:03,2.998s,PASSED
+,,,,,,,
+Test Cases/TCID_1,,,,2023-11-02 16:13:00,2023-11-02 16:13:01,0.728s,PASSED
+"println(""1st test case created"")",,,,2023-11-02 16:13:01,2023-11-02 16:13:01,0.006s,PASSED
+,,,,,,,
+Test Cases/TCID_2,,,,2023-11-02 16:13:01,2023-11-02 16:13:02,0.637s,PASSED
+"println(""3rd test case created"")",,,,2023-11-02 16:13:02,2023-11-02 16:13:02,0.001s,PASSED
+,,,,,,,
+Test Cases/TCID_3,,,,2023-11-02 16:13:02,2023-11-02 16:13:02,0.559s,PASSED
+"println(""1st test case created"")",,,,2023-11-02 16:13:02,2023-11-02 16:13:02,0.001s,PASSED
+,,,,,,,
+Test Cases/TCID_4,,,,2023-11-02 16:13:02,2023-11-02 16:13:03,0.575s,PASSED
+"println(""4th test case created"")",,,,2023-11-02 16:13:03,2023-11-02 16:13:03,0.001s,PASSED
