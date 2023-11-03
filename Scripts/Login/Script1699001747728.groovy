@@ -31,7 +31,7 @@ WebUI.verifyMatch(Username, get_Username, false)
 
 WebUI.setMaskedText(findTestObject('Page_Facebook  log in page/Password'), Password)
 
-get_Password = WebUI.getAttribute(findTestObject('Page_Facebook  log in page/Password'), 'value')
+get_Password = WebUI.getAttribute(findTestObject('Page_Facebook  log in page/Password'), 'Value')
 
 WebUI.verifyMatch(Password, get_Password, false)
 
