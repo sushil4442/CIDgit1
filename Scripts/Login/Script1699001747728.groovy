@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-println("Starts Process")
+println('Starts Process')
 
 WebUI.openBrowser(str_URL)
 
@@ -38,4 +38,6 @@ get_Password = WebUI.getAttribute(findTestObject('Page_Facebook  log in page/Pas
 WebUI.verifyMatch(Password, get_Password, false)
 
 WebUI.click(findTestObject('Page_Facebook  log in page/button_Log in'))
+
+WebUI.closeBrowser()
 
