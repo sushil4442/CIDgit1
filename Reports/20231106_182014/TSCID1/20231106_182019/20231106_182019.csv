@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSCID1,Chrome 119.0.0.0,,,2023-11-06 18:20:26,2023-11-06 18:20:34,7.491s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 119.0.0.0,,,2023-11-06 18:20:26,2023-11-06 18:20:34,7.280s,PASSED
+"println(""Starts Process"")",Chrome 119.0.0.0,,,2023-11-06 18:20:27,2023-11-06 18:20:27,0.023s,PASSED
+openBrowser(str_URL),Chrome 119.0.0.0,,,2023-11-06 18:20:27,2023-11-06 18:20:31,3.519s,PASSED
+maximizeWindow(),Chrome 119.0.0.0,,,2023-11-06 18:20:31,2023-11-06 18:20:31,0.162s,PASSED
+waitForPageLoad(30),Chrome 119.0.0.0,,,2023-11-06 18:20:31,2023-11-06 18:20:31,0.125s,PASSED
+"setText(findTestObject(""Page_Facebook  log in page/Username""), Username)",Chrome 119.0.0.0,,,2023-11-06 18:20:31,2023-11-06 18:20:32,0.753s,PASSED
+"get_Username = getAttribute(findTestObject(""Page_Facebook  log in page/Username""), ""value"")",Chrome 119.0.0.0,,,2023-11-06 18:20:32,2023-11-06 18:20:32,0.413s,PASSED
+"verifyMatch(Username, get_Username, false)",Chrome 119.0.0.0,,,2023-11-06 18:20:32,2023-11-06 18:20:32,0.021s,PASSED
+"setMaskedText(findTestObject(""Page_Facebook  log in page/Password""), Password)",Chrome 119.0.0.0,,,2023-11-06 18:20:32,2023-11-06 18:20:33,0.657s,PASSED
+"get_Password = getAttribute(findTestObject(""Page_Facebook  log in page/Password""), ""value"")",Chrome 119.0.0.0,,,2023-11-06 18:20:33,2023-11-06 18:20:33,0.282s,PASSED
+"verifyMatch(Password, get_Password, false)",Chrome 119.0.0.0,,,2023-11-06 18:20:33,2023-11-06 18:20:33,0.003s,PASSED
+"click(findTestObject(""Page_Facebook  log in page/button_Log in""))",Chrome 119.0.0.0,,,2023-11-06 18:20:33,2023-11-06 18:20:33,0.345s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-06 18:20:33,2023-11-06 18:20:34,0.300s,PASSED

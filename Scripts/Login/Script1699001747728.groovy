@@ -41,3 +41,4 @@ WebUI.click(findTestObject('Page_Facebook  log in page/button_Log in'))
 
 WebUI.closeBrowser()
 
+println('End Process')
