@@ -18,5 +18,3 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 println("2nd test case created")
-
-println("ENds 2nd")

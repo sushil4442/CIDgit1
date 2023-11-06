@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSCID1,Chrome 119.0.0.0,,,2023-11-06 11:58:01,2023-11-06 11:58:08,7.042s,PASSED
+,,,,,,,
+Test Cases/TCID_1,Chrome 119.0.0.0,,,2023-11-06 11:58:01,2023-11-06 11:58:01,0.205s,PASSED
+"println(""1st test case created"")",Chrome 119.0.0.0,,,2023-11-06 11:58:01,2023-11-06 11:58:01,0.004s,PASSED
+"println(""Ends"")",Chrome 119.0.0.0,,,2023-11-06 11:58:01,2023-11-06 11:58:01,0.002s,PASSED
+,,,,,,,
+Test Cases/TCID_2,Chrome 119.0.0.0,,,2023-11-06 11:58:01,2023-11-06 11:58:01,0.064s,PASSED
+"println(""2nd test case created"")",Chrome 119.0.0.0,,,2023-11-06 11:58:01,2023-11-06 11:58:01,0.001s,PASSED
+"println(""ENds 2nd"")",Chrome 119.0.0.0,,,2023-11-06 11:58:01,2023-11-06 11:58:01,0.001s,PASSED
+,,,,,,,
+Test Cases/TCID_3,Chrome 119.0.0.0,,,2023-11-06 11:58:01,2023-11-06 11:58:02,0.050s,PASSED
+"println(""3rd test case created"")",Chrome 119.0.0.0,,,2023-11-06 11:58:02,2023-11-06 11:58:02,0.002s,PASSED
+"println(""Ends 3rd"")",Chrome 119.0.0.0,,,2023-11-06 11:58:02,2023-11-06 11:58:02,0.001s,PASSED
+,,,,,,,
+Test Cases/TCID_4,Chrome 119.0.0.0,,,2023-11-06 11:58:02,2023-11-06 11:58:02,0.046s,PASSED
+"println(""4th test case created"")",Chrome 119.0.0.0,,,2023-11-06 11:58:02,2023-11-06 11:58:02,0.002s,PASSED
+"println(""4th ends"")",Chrome 119.0.0.0,,,2023-11-06 11:58:02,2023-11-06 11:58:02,0.000s,PASSED
+,,,,,,,
+Test Cases/TCID_5,Chrome 119.0.0.0,,,2023-11-06 11:58:02,2023-11-06 11:58:02,0.053s,PASSED
+"println(""5th test case created"")",Chrome 119.0.0.0,,,2023-11-06 11:58:02,2023-11-06 11:58:02,0.001s,PASSED
+"println(""5th ends"")",Chrome 119.0.0.0,,,2023-11-06 11:58:02,2023-11-06 11:58:02,0.001s,PASSED
+"println(""Bye"")",Chrome 119.0.0.0,,,2023-11-06 11:58:02,2023-11-06 11:58:02,0.001s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 119.0.0.0,,,2023-11-06 11:58:02,2023-11-06 11:58:08,6.158s,PASSED
+openBrowser(str_URL),Chrome 119.0.0.0,,,2023-11-06 11:58:02,2023-11-06 11:58:05,3.006s,PASSED
+maximizeWindow(),Chrome 119.0.0.0,,,2023-11-06 11:58:05,2023-11-06 11:58:05,0.139s,PASSED
+waitForPageLoad(30),Chrome 119.0.0.0,,,2023-11-06 11:58:05,2023-11-06 11:58:05,0.156s,PASSED
+"setText(findTestObject(""Page_Facebook  log in page/Username""), Username)",Chrome 119.0.0.0,,,2023-11-06 11:58:05,2023-11-06 11:58:06,0.754s,PASSED
+"get_Username = getAttribute(findTestObject(""Page_Facebook  log in page/Username""), ""value"")",Chrome 119.0.0.0,,,2023-11-06 11:58:06,2023-11-06 11:58:06,0.426s,PASSED
+"verifyMatch(Username, get_Username, false)",Chrome 119.0.0.0,,,2023-11-06 11:58:06,2023-11-06 11:58:06,0.019s,PASSED
+"setMaskedText(findTestObject(""Page_Facebook  log in page/Password""), Password)",Chrome 119.0.0.0,,,2023-11-06 11:58:06,2023-11-06 11:58:07,0.667s,PASSED
+"get_Password = getAttribute(findTestObject(""Page_Facebook  log in page/Password""), ""value"")",Chrome 119.0.0.0,,,2023-11-06 11:58:07,2023-11-06 11:58:07,0.314s,PASSED
+"verifyMatch(Password, get_Password, false)",Chrome 119.0.0.0,,,2023-11-06 11:58:07,2023-11-06 11:58:07,0.002s,PASSED
+"click(findTestObject(""Page_Facebook  log in page/button_Log in""))",Chrome 119.0.0.0,,,2023-11-06 11:58:07,2023-11-06 11:58:08,0.396s,PASSED
